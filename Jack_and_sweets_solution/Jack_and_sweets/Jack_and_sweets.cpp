@@ -11,7 +11,7 @@ int main()
 	std::cout << "How many students are in your class:";
 	std::cin >> students;
 	
-	std::cout << "Hom many sweets your mummy bought:";
+	std::cout << "How many sweets your mummy bought:";
 	std::cin >> sweets;
 
 	// x okresla najwieksza ilosc cukierkow na glowe, bez dzielenia na czesci, ale bez jack bo on moze zjesc dopiero wieczorem
@@ -19,7 +19,7 @@ int main()
 	std::cout << "Maximum number of sweets for one student:" << x << std::endl;
 	// y okresle ilosc cukierkow pozostalych dla jasia
 	y = sweets - x * (students - 1);
-	std::cout << "The rest for Jack:" << y << std::endl;
+	std::cout << "The rest for you:" << y << std::endl;
 
 	return 0;
 }
